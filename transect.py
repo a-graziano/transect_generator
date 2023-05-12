@@ -118,4 +118,5 @@ def generate_transects(polygon_layer_name, interval, direction):
 
     QgsProject.instance().addMapLayer(vl)
 
-generate_transects("10mt_field", 10,"N_S" )
+# add the 3 paramateres here: polygon name, transects distance and direction e.g ("10mt_transect", 10, "NNW-SSE")
+generate_transects("", ,"" )
